@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/style/index.css">
+    <link rel="stylesheet" href="assets/style/menu.css">
     <link rel="stylesheet" href="assets/style/css-reset.css">
     <link rel="stylesheet" href="assets/style/navbar.css">
+    <link rel="stylesheet" href="assets/style/card.css">
+    <link rel="stylesheet" href="assets/style/modal.css">
     <link rel="stylesheet" href="assets/style/footer.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Ephesis&family=Fraunces:opsz,wght@9..144,300&family=Great+Vibes&family=Heebo:wght@300&family=Maven+Pro&family=Playfair+Display+SC:wght@700&display=swap" rel="stylesheet">
-    <title>Kebunsari</title>
-    <link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+    <title>Menu</title>
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
 </head>
 <body>
     <!-- navbar -->
@@ -36,60 +38,27 @@
             <span></span>
         </div>
     </nav>
-    <!-- hero -->
+    <!-- header -->
     <header>
-        <div class="bgtext">
-                <h3 class="unseen">Cafe & Restaurant Est. 2019</h3>
-                <h1 class="unseen">WARUNG<br>KEBUNSARI</h1>
-                <a href="https://grab.onelink.me/2695613898?pid=inappsharing&c=6-CZNWAUXBAJ4ZE2&is_retargeting=true&af_dp=grab%3A%2F%2Fopen%3FscreenType%3DGRABFOOD%26sourceID%3DA4pcqCZkS4%26merchantIDs%3D6-CZNWAUXBAJ4ZE2&af_force_deeplink=true&af_web_dp=https%3A%2F%2Fwww.grab.com%2Fdownload" class="bt1 unseen">Order via Grab</a>
-                <a href="menu.html#menu" class="bt2 unseen">Our Menu</a>
-        </div>
-        <div class="bgimg"></div>
+        <div class="text"><h1>Menu Warung Kebunsari</h1></div>
+        <div class="bg"></div>
     </header>
-    <!-- article -->
-    <section class="article">
-        <div class="image"><div class="img eat unseen"></div></div>
-        <div class="text eat">
-            <div class="miniContainer unseen">
-             <h1>Food.</h1>
-             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus repudiandae magnam repellat assumenda soluta ad quis delectus, eos excepturi voluptate perferendis earum dicta, esse ullam ipsa iure ipsum, cum autem.</p>
-             <a href="about.html#food">Read More</a>
-            </div>
-        </div>
-        <div class="text drink">
-           <div class="miniContainer unseen">
-             <h1>Drink.</h1>
-             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quia, adipisci ab. Tempore, molestiae. Iusto, porro nihil illo error delectus enim velit numquam doloribus quas dolorum a adipisci possimus molestias inventore?</p>
-             <a href="about.html#drink">Read More</a>
-           </div>
-        </div>
-        <div class="image"><div class="img drink unseen"></div></div>
-        <div class="image"><div class="img enjoy unseen"></div></div>
-        <div class="text enjoy">
-            <div class="miniContainer unseen">
-             <h1>Enjoy.</h1>
-             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati fugit eligendi aut aliquid architecto aperiam dolorum illum, provident natus? Sed facilis fugiat qui libero temporibus tempora illo unde quia odit!</p>
-             <a href="about.html#enjoy">Read More</a>
-            </div>
-        </div>
-    </section>
-    <!-- reservation -->
-    <div class="reservation">
-        <div class="container-reservation">
-            <h3>Reservation</h3>
-            <h1>Info Reservation Can Access via WhatsApp</h1>
-            <a href="">WhatsApp</a>
-        </div>
-        <div class="bgimage"></div>
+    <!-- menu slide -->
+    <div id="menu" class="menu-scroll">
+        <ul>
+            <li><a href="#menu" class="active">Menu</a></li>
+            <li><a href="#menu">Makanan</a></li>
+            <li><a href="#menu">Camilan</a></li>
+            <li><a href="#menu">Angkringan</a></li>
+            <li><a href="#menu">Minuman</a></li>
+            <li><a href="#menu">Tumpeng</a></li>
+            <li><a href="#menu">Nasi Kotak</a></li>
+            <li><a href="#menu">Lainnya</a></li>
+        </ul>
     </div>
-    <!-- gallery -->
-    <div class="gallery">
-        <div><img src="assets/img/gallery1.jpg" alt=""></div>
-        <div><img src="assets/img/gallery2.jpg" alt=""></div>
-        <div><img src="assets/img/gallery3.jpg" alt=""></div>
-        <div><img src="assets/img/gallery4.jpg" alt=""></div>
-        <div><img src="assets/img/gallery5.jpg" alt=""></div>
-        <div><img src="assets/img/gallery6.jpg" alt=""></div>
+    <!-- card container -->
+    <div class="container-menu">
+        <div class="wrapped"></div>
     </div>
     <!-- footer -->
     <footer>
@@ -111,13 +80,10 @@
     </footer>
     <span class="copyright">© 2023 <a href="https://www.instagram.com/yopan_8/?utm_source=ig_web_button_share_sheet&igshid=OGQ5ZDc2ODk2ZA==">YOFAN</a></span>
 
-    <div class="container-loader active">
-        <div class="circle"></div>
-        <img src="assets/img/favicon.png" alt="">
-    </div>
+    <div class="container-modal"></div>
 
-    <script src="assets/script/index.js"></script>
+    <script src="assets/script/menu.js"></script>
     <script src="assets/script/navbar.js"></script>
-
+    
 </body>
 </html>
